@@ -88,3 +88,11 @@ body {
   font-weight: bold;
   font-family: var(--font-secondary);
 }
+
+/* Logo image size */
+.logo {
+  /* Set the width of the logo */
+  width: 150px;
+  /* Keep the logo height in proportion */
+  height: auto;
+}
