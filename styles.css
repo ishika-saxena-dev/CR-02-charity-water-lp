@@ -65,6 +65,14 @@ body {
   margin-bottom: 10px;
 }
 
+/* Make the water icon bigger inside the donation highlight */
+.water-icon {
+  /* Set a bigger width for the icon */
+  width: 50px;
+  /* Keep the height in proportion */
+  height: auto;
+}
+
 .donation-button {
   background-color: var(--yellow);
   color: var(--blue);
@@ -95,13 +103,4 @@ body {
   width: 150px;
   /* Keep the logo height in proportion */
   height: auto;
-}
-
-/* Hero image size */
-.hero-image {
-  /* Set the width of the hero image to fill its container */
-  width: 2000px;
-  /* Set the height to 5% of the container */
-  height: 5%;
-  object-position: center;
 }
