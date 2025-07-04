@@ -96,3 +96,12 @@ body {
   /* Keep the logo height in proportion */
   height: auto;
 }
+
+/* Hero image size */
+.hero-image {
+  /* Set the width of the hero image to fill its container */
+  width: 2000px;
+  /* Set the height to 5% of the container */
+  height: 5%;
+  object-position: center;
+}
