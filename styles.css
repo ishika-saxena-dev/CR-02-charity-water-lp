@@ -39,6 +39,17 @@ body {
   color: white;
 }
 
+/* Hero image size */
+.hero-image {
+  /* Set the width of the hero image to fill its container */
+  width: 100%;
+  /* Set a fixed height for the hero image */
+  height: 25%;
+  /* Make sure the image covers the area and stays centered */
+  object-fit: cover;
+  object-position: center;
+}
+
 .image-section {
   position: relative;
 }
